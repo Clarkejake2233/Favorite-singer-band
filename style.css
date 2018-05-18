@@ -23,7 +23,7 @@ p {
 div {
     width: 380px;
     height: 280px;
-	background: url('file:///U:/Web%20Design/Javascript/gorillaz.png') center no-repeat;
+	background: url('gorillaz.png') center no-repeat;
   background-size: cover;
   clip-path: polygon(0% 20%, 60% 20%, 60% 0%, 100% 50%, 60% 100%, 60% 80%, 0% 80%);
   clip-path: margin-box;
