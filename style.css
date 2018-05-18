@@ -1,0 +1,70 @@
+h1 {
+    color:green;
+    text-align: left;
+    font-size: 60px;
+
+}
+
+h2 {
+	color:blue;
+    
+}
+
+h3 {	color: red;
+}
+
+
+
+p {
+    text-align:center;
+    
+}
+
+div {
+    width: 380px;
+    height: 280px;
+	background: url('file:///U:/Web%20Design/Javascript/gorillaz.png') center no-repeat;
+  background-size: cover;
+  clip-path: polygon(0% 20%, 60% 20%, 60% 0%, 100% 50%, 60% 100%, 60% 80%, 0% 80%);
+  clip-path: margin-box;
+  animation: clips 3s ease infinite;
+border: 0;     margin: 0 5%;     padding: 0;     float: none;     position: static;     overflow: visible; }
+
+@keyframes clips {
+  50% {
+clip-path: polygon(40% 0%, 40% 20%, 100% 20%, 100% 80%, 40% 80%, 40% 100%, 0% 50%)
+  }
+}
+
+/* Center the demo */
+html, body { height: 100%; }
+
+body {
+
+    background-color: lightgrey;
+
+
+}
+
+nav { float: left;
+max-width; 400px;
+margin:0;
+padding: lem;
+}
+
+li {font-size:15px;
+	
+}
+
+figcaption { font-size:25px;
+}
+
+.trailerstyle {
+	position: absolute;
+	visibility: visible;
+	top: -50px;
+	font-size: 12px;
+	font-family: Arial,Helvetica,Verdana;
+      	font-weight: bold;
+	color: #000000;
+}
